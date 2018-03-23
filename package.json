@@ -1,0 +1,11 @@
+{
+  "name": "bedrock-frontend",
+  "version": "0.0.0-0",
+  "description": "Bedrock Frontend Launcher",
+  "main": "index.js",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalbazaar/bedrock-frontend"
+  }
+}
