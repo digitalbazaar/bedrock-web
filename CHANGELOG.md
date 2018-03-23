@@ -2,6 +2,9 @@
 
 ## 1.0.0 - 2018-03-22
 
+### Fixed
+- Fix release.
+
 ### Added
 - Add core files.
 
