@@ -1,6 +1,6 @@
 {
   "name": "bedrock-frontend",
-  "version": "0.0.1-0",
+  "version": "1.0.0",
   "description": "Bedrock Frontend Launcher",
   "main": "index.js",
   "dependencies": {},
