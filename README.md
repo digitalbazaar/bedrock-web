@@ -1,2 +1,2 @@
-# bedrock-frontend
-Frontend launcher for Bedrock
+# bedrock-web
+Web App launcher for Bedrock

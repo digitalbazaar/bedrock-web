@@ -1,11 +1,11 @@
 {
-  "name": "bedrock-frontend",
-  "version": "1.0.1-0",
-  "description": "Bedrock Frontend Launcher",
+  "name": "bedrock-web",
+  "version": "0.1.0-0",
+  "description": "Bedrock Web App Launcher",
   "main": "index.js",
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalbazaar/bedrock-frontend"
+    "url": "https://github.com/digitalbazaar/bedrock-web"
   }
 }
