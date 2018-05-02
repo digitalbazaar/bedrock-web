@@ -1,6 +1,6 @@
-# bedrock-frontend ChangeLog
+# bedrock-web ChangeLog
 
-## 1.0.0 - 2018-03-22
+## 0.1.0 - 2018-05-02
 
 ### Fixed
 - Fix release.
