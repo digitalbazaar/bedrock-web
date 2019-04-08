@@ -1,5 +1,10 @@
 # bedrock-web ChangeLog
 
+## 1.1.0 - 2019-xx-xx
+
+### Added
+- Add `waitUntil` method to delay `ready`.
+
 ## 1.0.0 - 2018-05-02
 
 ### Fixed
