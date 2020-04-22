@@ -1,0 +1,15 @@
+{
+  "name": "bedrock-web-test",
+  "version": "0.0.1-0",
+  "private": true,
+  "scripts": {
+    "test": "node --preserve-symlinks test.js test --framework karma",
+    "coverage-ci": "node --preserve-symlinks test.js test --framework karma"
+  },
+  "dependencies": {
+    "bedrock": "^3.1.0",
+    "bedrock-karma": "^2.1.0",
+    "bedrock-test": "^5.1.0",
+    "bedrock-web": "file:.."
+  }
+}
