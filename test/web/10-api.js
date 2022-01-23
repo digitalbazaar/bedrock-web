@@ -1,12 +1,13 @@
 /*!
- * Copyright (c) 2019-2020 Digital Bazaar, Inc. All rights reserved.
+ * Copyright (c) 2019-2022 Digital Bazaar, Inc. All rights reserved.
  */
-
-import {ready, start, waitUntil} from 'bedrock-web';
+import {config, ready, start, waitUntil} from 'bedrock-web';
 
 describe('bedrock-web API', () => {
   describe('API', () => {
     it('exports the proper APIs', async () => {
+      should.exist(config);
+      config.should.be.an('object');
       should.exist(start);
       start.should.be.instanceof(Function);
       console.log(ready);

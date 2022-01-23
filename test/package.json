@@ -7,9 +7,9 @@
     "coverage-ci": "node --preserve-symlinks test.js test --framework karma"
   },
   "dependencies": {
-    "bedrock": "^3.1.0",
-    "bedrock-karma": "^2.1.0",
-    "bedrock-test": "^5.1.0",
+    "bedrock": "^4.4.3",
+    "bedrock-karma": "^2.2.0",
+    "bedrock-test": "^5.4.0",
     "bedrock-web": "file:.."
   }
 }
