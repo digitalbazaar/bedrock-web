@@ -1,6 +1,6 @@
 # bedrock-web ChangeLog
 
-## 1.2.0 - 2022-01-xx
+## 1.2.0 - 2022-01-23
 
 ### Added
 - Add Web application shared `config` export.
