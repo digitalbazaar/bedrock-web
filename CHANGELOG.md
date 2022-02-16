@@ -1,6 +1,6 @@
 # bedrock-web ChangeLog
 
-## 1.3.0 - 2022-02-xx
+## 1.3.0 - 2022-02-16
 
 ### Added
 - Add `extend` function for (deep) merging objects. Primarily provided for
