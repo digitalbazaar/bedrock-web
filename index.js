@@ -42,3 +42,47 @@ export async function start() {
 
 // web application shared configuration
 export const config = {};
+
+/**
+ * Merges the contents of one or more objects into the target. Useful for
+ * deep merging (aka "overlaying") configuration objects into `config`.
+ *
+ * @param {object} options - The options to use.
+ * @param {object} options.target - The target object to merge properties into.
+ * @param {Array|object} options.source - N objects to merge into the target.
+ * @param {boolean} [options.deep=false] - `true` to do a deep merge.
+ *
+ * @returns {object} The merged target.
+ */
+export function extend({target, source, deep} = {}) {
+  if(!Array.isArray(source)) {
+    source = [source];
+  }
+  for(const obj of source) {
+    if(!isObject(obj)) {
+      throw new TypeError('"source" must be an object or an array of objects.');
+    }
+    for(const key of Object.keys(obj)) {
+      const value = obj[key];
+      if(deep && isObject(value) && !Array.isArray(value)) {
+        target[key] = extend({
+          target: target[key], source: value, deep: true
+        });
+      } else {
+        target[key] = value;
+      }
+    }
+  }
+  return target;
+}
+
+/**
+ * Returns true if the given value is an Object.
+ *
+ * @param {*} value - The value to check.
+ *
+ * @returns {boolean} `true` if it is an Object, `false` if not.
+ */
+export function isObject(value) {
+  return (Object.prototype.toString.call(value) === '[object Object]');
+}
