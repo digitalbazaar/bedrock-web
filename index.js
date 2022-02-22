@@ -66,7 +66,7 @@ export function extend({target, source, deep} = {}) {
       const value = obj[key];
       if(deep && isObject(value) && !Array.isArray(value)) {
         target[key] = extend({
-          target: target[key], source: value, deep: true
+          target: target[key] || {}, source: value, deep: true
         });
       } else {
         target[key] = value;

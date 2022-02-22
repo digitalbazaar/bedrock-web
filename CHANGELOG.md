@@ -1,5 +1,10 @@
 # bedrock-web ChangeLog
 
+## 1.3.1 - 2022-02-xx
+
+### Fixed
+- Fix bug when trying to merge in new object keys.
+
 ## 1.3.0 - 2022-02-16
 
 ### Added
