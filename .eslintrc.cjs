@@ -6,7 +6,7 @@ module.exports = {
   },
   env: {
     browser: true,
-    node: true,
+    node: true
   },
   extends: ['digitalbazaar', 'digitalbazaar/jsdoc'],
   ignorePatterns: ['node_modules/']
