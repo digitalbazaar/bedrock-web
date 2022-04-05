@@ -1,15 +1,18 @@
 {
   "name": "bedrock-web-test",
   "version": "0.0.1-0",
+  "type": "module",
   "private": true,
   "scripts": {
     "test": "node --preserve-symlinks test.js test --framework karma",
-    "coverage-ci": "node --preserve-symlinks test.js test --framework karma"
+    "coverage": "cross-env NODE_ENV=test c8 --reporter=lcov --reporter=text-summary npm test",
+    "coverage-ci": "cross-env NODE_ENV=test c8 --reporter=lcovonly npm test",
+    "coverage-report": "c8 report"
   },
   "dependencies": {
-    "bedrock": "^4.4.3",
-    "bedrock-karma": "^2.2.0",
-    "bedrock-test": "^5.4.0",
-    "bedrock-web": "file:.."
+    "@bedrock/core": "^5.0.0",
+    "@bedrock/karma": "^3.0.0",
+    "@bedrock/test": "^7.0.0",
+    "@bedrock/web": "file:.."
   }
 }

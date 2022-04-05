@@ -1,7 +1,7 @@
 /*!
  * Copyright (c) 2019-2022 Digital Bazaar, Inc. All rights reserved.
  */
-import {config, extend, isObject, ready, start, waitUntil} from 'bedrock-web';
+import {config, extend, isObject, ready, start, waitUntil} from '@bedrock/web';
 
 describe('bedrock-web API', () => {
   describe('API', () => {
