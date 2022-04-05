@@ -14,7 +14,6 @@ describe('bedrock-web API', () => {
       isObject.should.be.a('function');
       should.exist(start);
       start.should.be.instanceof(Function);
-      console.log(ready);
       should.exist(ready);
       ready.should.be.instanceof(Promise);
       should.exist(waitUntil);

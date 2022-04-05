@@ -5,9 +5,8 @@
   "private": true,
   "scripts": {
     "test": "node --preserve-symlinks test.js test --framework karma",
-    "coverage": "cross-env NODE_ENV=test c8 --reporter=lcov --reporter=text-summary npm test",
-    "coverage-ci": "cross-env NODE_ENV=test c8 --reporter=lcovonly npm test",
-    "coverage-report": "c8 report"
+    "coverage": "node --preserve-symlinks test.js test --framework karma --config ./node_modules/@bedrock/karma/lib/coverageConfig.js",
+    "coverage-ci": "node --preserve-symlinks test.js test --framework karma --config ./node_modules/@bedrock/karma/lib/coverageConfig.js"
   },
   "dependencies": {
     "@bedrock/core": "^5.0.0",
