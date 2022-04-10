@@ -1,6 +1,6 @@
 # bedrock-web ChangeLog
 
-## 2.0.1 - 2022-04-xx
+## 2.0.1 - 2022-04-10
 
 ### Fixed
 - Only publish `lib` dir.
