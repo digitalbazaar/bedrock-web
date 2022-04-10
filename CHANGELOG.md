@@ -1,5 +1,10 @@
 # bedrock-web ChangeLog
 
+## 2.0.1 - 2022-04-xx
+
+### Fixed
+- Only publish `lib` dir.
+
 ## 2.0.0 - 2022-04-05
 
 ### Changed
