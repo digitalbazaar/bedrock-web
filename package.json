@@ -1,6 +1,6 @@
 {
   "name": "@bedrock/web",
-  "version": "2.0.1",
+  "version": "2.0.2-0",
   "type": "module",
   "description": "Bedrock Web App Launcher",
   "module": "./lib/index.js",
