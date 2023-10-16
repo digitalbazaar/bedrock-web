@@ -20,5 +20,8 @@
     "eslint-plugin-jsdoc": "^39.3.3",
     "eslint-plugin-unicorn": "^42.0.0",
     "jsdoc-to-markdown": "^7.1.1"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
