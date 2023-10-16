@@ -1,5 +1,10 @@
 # bedrock-web ChangeLog
 
+## 4.0.0 - 2023-10-TBD
+
+### Changed
+- **BREAKING**: Drop support for Node.js < 18.
+
 ## 3.0.0 - 2022-08-19
 
 ### Changed
