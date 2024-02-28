@@ -2,6 +2,7 @@
   "name": "@bedrock/web",
   "version": "3.0.1-0",
   "description": "Bedrock Web App Launcher",
+  "license": "Apache-2.0",
   "type": "module",
   "exports": "./lib/index.js",
   "files": [
